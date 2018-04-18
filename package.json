@@ -1,0 +1,22 @@
+{
+  "name": "sanchezarencibia_new_static",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saverio2381/sanchezarencibia_new_static.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saverio2381/sanchezarencibia_new_static/issues"
+  },
+  "homepage": "https://github.com/saverio2381/sanchezarencibia_new_static#readme"
+}

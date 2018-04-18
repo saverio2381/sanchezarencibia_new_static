@@ -1,0 +1,64 @@
+// Fuentes
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700|Roboto:300,400,700');
+*,*:after,*:before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+// Variables
+$fuente-cuerpo: 'Raleway',sans-serif;
+$fuente-titulos: 'Roboto',sans-serif;
+
+$color-texto: #494949;
+$blanco: #fafafa;
+
+$espacio-filas: 20px;
+$espacio: $espacio-filas/2;
+
+
+// Configuración general
+html{
+    font-family: $fuente-cuerpo;
+    color: $color-texto;
+}
+body{
+    background:$blanco;
+}
+
+
+// Grid
+
+.fila{
+    display: flex;
+    flex-wrap: wrap;
+    outline: 2px solid red;
+    
+    .col{
+        width: 100%;
+        outline: 1px solid blue;
+        padding-left: $espacio;
+        padding-right: $espacio;
+
+        // Solo paara pruebas
+        p{
+            background: lightgreen;
+            text-align: center;
+            padding-top: 1em;
+            padding-bottom: 1em;
+        }
+    }
+
+    .base-50{
+        width: calc( 100% / 2 );
+    }
+
+    .movil-25{
+        width: calc( 100% / 4 );
+    }
+
+    .tablet-15{
+        width: calc( 100% / 8 );
+    }
+}
+
